@@ -33,7 +33,7 @@ Analyze by describing data
 - What is the distribution of categorical features ?
 ---------------------------------------------------
 Analyze by pivoting features 
-
+- Can only do this for features which do not have any empty values 
 ===================================================
 ===================================================
 Assumtions based on data analysis 
@@ -43,3 +43,12 @@ Assumtions based on data analysis
 3. Correcting  (Dropping feature when the feature not supporting the correlation of goals/highly incomplete)
 4. Creating    (Create new feature based existing feature : count, range, extract)
 5. Classifying ()
+===================================================
+===================================================
+Data : 
+- Categorical
+-- Ordinal 
+-- Interval 
+- Numerical 
+===================================================
+===================================================
