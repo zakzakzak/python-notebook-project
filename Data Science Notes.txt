@@ -1,4 +1,5 @@
 ===================================================
+===================================================
 FRAMEWORK
 ---------------------------------------------------
 - Question or problem definition
@@ -6,12 +7,25 @@ FRAMEWORK
 - Wrangle, prepare, cleanse the data
 - Analyze, identify patterns, and explore the data
 - Model, predict and solve the problem
-- Visualize, report, and present the problem solving steps and final solution
+- Visualize, report, and present the problem solving 
+  steps and final solution
 - Supply or submit the results
 ===================================================
-The workflow indicates general sequence of how each stage may follow the other. However there are use cases with exceptions.
-
-- We may combine mulitple workflow stages. We may analyze by visualizing data.
-- Perform a stage earlier than indicated. We may analyze data before and after wrangling.
-- Perform a stage multiple times in our workflow. Visualize stage may be used multiple times.
-- Drop a stage altogether. We may not need supply stage to productize or service enable our dataset for a competition.
+Not always in order :
+- We may combine mulitple workflow stages. 
+- We may analyze by visualizing data.
+- Perform a stage earlier than indicated. 
+- We may analyze data before and after wrangling.
+- Perform a stage multiple times in our workflow. 
+- Visualize stage may be used multiple times.
+- Drop a stage altogether. 
+- We may not need supply stage to productize or service enable our dataset for a competition.
+===================================================
+===================================================
+Analyze by describing data 
+- What features are available in the dataset 
+- Which feature are categorical or numerical ?
+- Which features are mixed data types 
+- Which features may contain errors & typos ? (reviewing few sample)
+- Which features contain blank, null or empty values
+- What are data types for farious features ?
