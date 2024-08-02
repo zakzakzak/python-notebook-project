@@ -29,3 +29,17 @@ Analyze by describing data
 - Which features may contain errors & typos ? (reviewing few sample)
 - Which features contain blank, null or empty values
 - What are data types for farious features ?
+- What is the distribution of numerical features across the samples ? 
+- What is the distribution of categorical features ?
+---------------------------------------------------
+Analyze by pivoting features 
+
+===================================================
+===================================================
+Assumtions based on data analysis 
+---------------------------------------------------
+1. Correlating (how does each feature correlate with goals/or another column)
+2. Completing  (Complete empty data based correlated to survival)
+3. Correcting  (Dropping feature when the feature not supporting the correlation of goals/highly incomplete)
+4. Creating    (Create new feature based existing feature : count, range, extract)
+5. Classifying ()
