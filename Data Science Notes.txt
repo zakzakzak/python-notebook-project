@@ -22,6 +22,8 @@ Not always in order :
 - We may not need supply stage to productize or service enable our dataset for a competition.
 ===================================================
 ===================================================
+Framework : Analyze-Observation-Decision
+---------------------------------------------------
 Analyze by describing data 
 - What features are available in the dataset 
 - Which feature are categorical or numerical ?
@@ -34,6 +36,17 @@ Analyze by describing data
 ---------------------------------------------------
 Analyze by pivoting features 
 - Can only do this for features which do not have any empty values 
+---------------------------------------------------
+Analyzing by visualizing data
+- Correlating numerical feature
+- Histogram is useful for analyzing continous numerical variables 
+- like Age where "banding" or "ranges" will help identify useful patterns
+- x-axis in historgram visualizations represents the count of samples
+---------------------------------------------------
+Observation 
+- Exp : Young people are more likely survived
+Decision 
+- Exp : Create banding/ranges of age categorical (Classifying)
 ===================================================
 ===================================================
 Assumtions based on data analysis 
