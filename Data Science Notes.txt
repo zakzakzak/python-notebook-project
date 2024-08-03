@@ -42,6 +42,7 @@ Analyzing by visualizing data
 - Histogram is useful for analyzing continous numerical variables 
 - like Age where "banding" or "ranges" will help identify useful patterns
 - x-axis in historgram visualizations represents the count of samples
+- Correlating Correlating numerical and ordinal features
 ---------------------------------------------------
 Observation 
 - Exp : Young people are more likely survived
