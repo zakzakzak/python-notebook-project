@@ -1,0 +1,68 @@
+===================================================
+===================================================
+FRAMEWORK
+---------------------------------------------------
+- Question or problem definition
+- Data Acquition (training & testing) / Loading Dataset
+- Wrangle, prepare, cleanse the data
+- Analyze, identify patterns, and explore the data
+- Model, predict and solve the problem
+- Visualize, report, and present the problem solving 
+  steps and final solution
+- Supply or submit the results
+===================================================
+Not always in order :
+- We may combine mulitple workflow stages. 
+- We may analyze by visualizing data.
+- Perform a stage earlier than indicated. 
+- We may analyze data before and after wrangling.
+- Perform a stage multiple times in our workflow. 
+- Visualize stage may be used multiple times.
+- Drop a stage altogether. 
+- We may not need supply stage to productize or service enable our dataset for a competition.
+===================================================
+===================================================
+Framework : Analyze-Observation-Decision
+---------------------------------------------------
+Analyze by describing data 
+- What features are available in the dataset 
+- Which feature are categorical or numerical ?
+- Which features are mixed data types 
+- Which features may contain errors & typos ? (reviewing few sample)
+- Which features contain blank, null or empty values
+- What are data types for farious features ?
+- What is the distribution of numerical features across the samples ? 
+- What is the distribution of categorical features ?
+---------------------------------------------------
+Analyze by pivoting features 
+- Can only do this for features which do not have any empty values 
+---------------------------------------------------
+Analyzing by visualizing data
+- Correlating numerical feature
+- Histogram is useful for analyzing continous numerical variables 
+- like Age where "banding" or "ranges" will help identify useful patterns
+- x-axis in historgram visualizations represents the count of samples
+- Correlating Correlating numerical and ordinal features
+---------------------------------------------------
+Observation 
+- Exp : Young people are more likely survived
+Decision 
+- Exp : Create banding/ranges of age categorical (Classifying)
+===================================================
+===================================================
+Assumtions based on data analysis 
+---------------------------------------------------
+1. Correlating (how does each feature correlate with goals/or another column)
+2. Completing  (Complete empty data based correlated to survival)
+3. Correcting  (Dropping feature when the feature not supporting the correlation of goals/highly incomplete)
+4. Creating    (Create new feature based existing feature : count, range, extract)
+5. Classifying ()
+===================================================
+===================================================
+Data : 
+- Categorical
+-- Ordinal 
+-- Interval 
+- Numerical 
+===================================================
+===================================================
