@@ -3,7 +3,7 @@
 FRAMEWORK
 ---------------------------------------------------
 - Question or problem definition
-- Data Acquition (training & testing)
+- Data Acquition (training & testing) / Loading Dataset
 - Wrangle, prepare, cleanse the data
 - Analyze, identify patterns, and explore the data
 - Model, predict and solve the problem
